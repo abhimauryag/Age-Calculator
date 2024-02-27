@@ -17,7 +17,7 @@ $(document).ready(function () {
         today.getMonth() == birthday.getMonth() &&
         today.getDate() == birthday.getDate()
       ) {
-        alert("Happy B'day!!!");
+        alert("Happy Birthday!!!");
       }
   
       var month_age = Math.floor(day_age / 30);
